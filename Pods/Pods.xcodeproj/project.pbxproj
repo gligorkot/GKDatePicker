@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03263FDD5C4C4EDEAB53B732F14BAEE0 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C7E839BD01ED61BFCD4452D9B6FA8 /* UITextView+Extensions.swift */; };
+		19FBA3FB60076E8E04F212CF2DE6F32D /* Common+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72244C48F8702F5338C55A1598E3881 /* Common+Extensions.swift */; };
+		476FE38FD5128862CDC7677894234136 /* GKDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 446F495ACDDADE158576D68667B05901 /* GKDatePicker-dummy.m */; };
+		500F05509B763673AFF351B61A93BF5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		52C5B83B50161F16225E36F669CAEC40 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F55B89CB887D975650F0C3CD5E67B8 /* DatePickerViewController.swift */; };
+		5C91730E8FCD2A09B4B81FB50673B760 /* GKDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F5C7533A843221BE1333936BE960D1 /* GKDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A93DEFD289DFDAD4F8AA3E7C963069EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C18B766D850EBC665413A7550684810F /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826234F2A99EFFDEDA2E66FB0B7F6C4 /* UIAlertController+Extensions.swift */; };
+		CD5B19DFB2F7CCA1424E924A6A98AC0C /* Pods-Alerts&Pickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D4C9A594F8CFB8FCA4DDB557F2BDF6 /* Pods-Alerts&Pickers-dummy.m */; };
+		E06842F0415C673C5386F37EA9505112 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F63246487A62B5CC3B65CB8582857C0 /* UIView+Extensions.swift */; };
+		EA9FC064B5E3EF1CD84C826F9BC612F6 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6219EBB8F7D6CE214FFA4D7ABA6EBD1 /* String+Extensions.swift */; };
+		FD80A8523265C900DBDFC68A8100A3B3 /* Pods-Alerts&Pickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FDC0EAB396E0054FD3EBBCBA8298B9 /* Pods-Alerts&Pickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31CBAD172E46432BFB4DC2AD947D9871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FB2147503C5DE372DDA49D99F7224;
+			remoteInfo = GKDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0310416770C28C8A7BB46409486BFF7B /* GKDatePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GKDatePicker-Info.plist"; sourceTree = "<group>"; };
+		05F55B89CB887D975650F0C3CD5E67B8 /* DatePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		158E11C6037531725B5FB080B3CF62CD /* Pods-Alerts&Pickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alerts&Pickers.release.xcconfig"; sourceTree = "<group>"; };
+		1826234F2A99EFFDEDA2E66FB0B7F6C4 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		1D0C7E839BD01ED61BFCD4452D9B6FA8 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
+		22F5C7533A843221BE1333936BE960D1 /* GKDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		25D4C9A594F8CFB8FCA4DDB557F2BDF6 /* Pods-Alerts&Pickers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alerts&Pickers-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A6D5FC28A038131B66CDA2E2E934EC1 /* GKDatePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GKDatePicker.release.xcconfig; sourceTree = "<group>"; };
+		446F495ACDDADE158576D68667B05901 /* GKDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GKDatePicker-dummy.m"; sourceTree = "<group>"; };
+		524580BEAC7CCE7F3F582602A3A52957 /* Pods-Alerts&Pickers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alerts&Pickers-Info.plist"; sourceTree = "<group>"; };
+		6F63246487A62B5CC3B65CB8582857C0 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		7ED1EB38ECBA8D5CBC92388A880EC3A7 /* GKDatePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GKDatePicker.debug.xcconfig; sourceTree = "<group>"; };
+		7F7ECCB37C482D1A9E5C693CA5361E20 /* Pods-Alerts&Pickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alerts&Pickers.debug.xcconfig"; sourceTree = "<group>"; };
+		803D027A9133985D1B47E8B1A96B02F5 /* Pods-Alerts&Pickers-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alerts&Pickers-acknowledgements.plist"; sourceTree = "<group>"; };
+		81FDC0EAB396E0054FD3EBBCBA8298B9 /* Pods-Alerts&Pickers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alerts&Pickers-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A022C61E4997C065FECADCF565CC7BFD /* GKDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		A4C5D1004758746A5BC59D6CD4C20B30 /* GKDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GKDatePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6219EBB8F7D6CE214FFA4D7ABA6EBD1 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		BA4290D23E30930BDBC263B205ACB26C /* GKDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GKDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99FAF61E221A040DEADE12303626841 /* Pods-Alerts&Pickers-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alerts&Pickers-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFB83FC7773FDC9A366D869CC7F91C25 /* Pods_Alerts_Pickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alerts_Pickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D8BA54E770974551469B5564B65F10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E2272C6C314E7DA7D746B9FB994A8E1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E61D79598CF9E99A2261169ECE471CC3 /* GKDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GKDatePicker.modulemap; sourceTree = "<group>"; };
+		E72244C48F8702F5338C55A1598E3881 /* Common+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Common+Extensions.swift"; sourceTree = "<group>"; };
+		EA19A66CEAA7D6C5B712D9BFDC19BB94 /* Pods-Alerts&Pickers-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alerts&Pickers-frameworks.sh"; sourceTree = "<group>"; };
+		F34E7EA3303498A91196E1F1A70F9653 /* Pods-Alerts&Pickers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Alerts&Pickers.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723F7100009F8FA1897F3249F59F849E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93DEFD289DFDAD4F8AA3E7C963069EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA370803C8E5C24EEA75075E4B3CE91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500F05509B763673AFF351B61A93BF5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0142A75361273751DDD48D0226F3F807 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27A155D69EBE3C581FD456709C668CFB /* Pods-Alerts&Pickers */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		03806751B342E5B8A4B3687BB3A3C6C5 /* GKDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				511FDCF4B38DE1494ED9B7E2D04ACB84 /* Extensions */,
+				F8C652D7AF1262B14F785F73F0EDC486 /* Pickers */,
+				478BC47BE3CFAE4C377DCAAC26D267C8 /* Pod */,
+				1D476634029755C1D2BB6ABEEE922C0C /* Support Files */,
+			);
+			name = GKDatePicker;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1D476634029755C1D2BB6ABEEE922C0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E61D79598CF9E99A2261169ECE471CC3 /* GKDatePicker.modulemap */,
+				446F495ACDDADE158576D68667B05901 /* GKDatePicker-dummy.m */,
+				0310416770C28C8A7BB46409486BFF7B /* GKDatePicker-Info.plist */,
+				A022C61E4997C065FECADCF565CC7BFD /* GKDatePicker-prefix.pch */,
+				22F5C7533A843221BE1333936BE960D1 /* GKDatePicker-umbrella.h */,
+				7ED1EB38ECBA8D5CBC92388A880EC3A7 /* GKDatePicker.debug.xcconfig */,
+				3A6D5FC28A038131B66CDA2E2E934EC1 /* GKDatePicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/GKDatePicker";
+			sourceTree = "<group>";
+		};
+		27A155D69EBE3C581FD456709C668CFB /* Pods-Alerts&Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				F34E7EA3303498A91196E1F1A70F9653 /* Pods-Alerts&Pickers.modulemap */,
+				C99FAF61E221A040DEADE12303626841 /* Pods-Alerts&Pickers-acknowledgements.markdown */,
+				803D027A9133985D1B47E8B1A96B02F5 /* Pods-Alerts&Pickers-acknowledgements.plist */,
+				25D4C9A594F8CFB8FCA4DDB557F2BDF6 /* Pods-Alerts&Pickers-dummy.m */,
+				EA19A66CEAA7D6C5B712D9BFDC19BB94 /* Pods-Alerts&Pickers-frameworks.sh */,
+				524580BEAC7CCE7F3F582602A3A52957 /* Pods-Alerts&Pickers-Info.plist */,
+				81FDC0EAB396E0054FD3EBBCBA8298B9 /* Pods-Alerts&Pickers-umbrella.h */,
+				7F7ECCB37C482D1A9E5C693CA5361E20 /* Pods-Alerts&Pickers.debug.xcconfig */,
+				158E11C6037531725B5FB080B3CF62CD /* Pods-Alerts&Pickers.release.xcconfig */,
+			);
+			name = "Pods-Alerts&Pickers";
+			path = "Target Support Files/Pods-Alerts&Pickers";
+			sourceTree = "<group>";
+		};
+		478BC47BE3CFAE4C377DCAAC26D267C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A4C5D1004758746A5BC59D6CD4C20B30 /* GKDatePicker.podspec */,
+				E2272C6C314E7DA7D746B9FB994A8E1F /* LICENSE */,
+				E1D8BA54E770974551469B5564B65F10 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		498A18E2615BF492D5B2E965715B2DB1 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				05F55B89CB887D975650F0C3CD5E67B8 /* DatePickerViewController.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		511FDCF4B38DE1494ED9B7E2D04ACB84 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E72244C48F8702F5338C55A1598E3881 /* Common+Extensions.swift */,
+				B6219EBB8F7D6CE214FFA4D7ABA6EBD1 /* String+Extensions.swift */,
+				1826234F2A99EFFDEDA2E66FB0B7F6C4 /* UIAlertController+Extensions.swift */,
+				1D0C7E839BD01ED61BFCD4452D9B6FA8 /* UITextView+Extensions.swift */,
+				6F63246487A62B5CC3B65CB8582857C0 /* UIView+Extensions.swift */,
+			);
+			name = Extensions;
+			path = Source/Extensions;
+			sourceTree = "<group>";
+		};
+		928E0245A0A12CC0D25295A792C8D412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4290D23E30930BDBC263B205ACB26C /* GKDatePicker.framework */,
+				CFB83FC7773FDC9A366D869CC7F91C25 /* Pods_Alerts_Pickers.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C22512CAD88E04113E14FD4B14F8750E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03806751B342E5B8A4B3687BB3A3C6C5 /* GKDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C22512CAD88E04113E14FD4B14F8750E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				928E0245A0A12CC0D25295A792C8D412 /* Products */,
+				0142A75361273751DDD48D0226F3F807 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8C652D7AF1262B14F785F73F0EDC486 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				498A18E2615BF492D5B2E965715B2DB1 /* Date */,
+			);
+			name = Pickers;
+			path = Source/Pickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B61686D7F4D9AB6E99377B8986F15AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C91730E8FCD2A09B4B81FB50673B760 /* GKDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C73BC6F78E3CC69DCD9C2416A5B169 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD80A8523265C900DBDFC68A8100A3B3 /* Pods-Alerts&Pickers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58249BF94D8F54E241972CF238FBAB92 /* Pods-Alerts&Pickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39CCDDEC53B8A0D36C368520697BD9A3 /* Build configuration list for PBXNativeTarget "Pods-Alerts&Pickers" */;
+			buildPhases = (
+				39C73BC6F78E3CC69DCD9C2416A5B169 /* Headers */,
+				E341FCD771F553AB391CD7632F4EB4E9 /* Sources */,
+				723F7100009F8FA1897F3249F59F849E /* Frameworks */,
+				D90B42E147AA8EC82DCD8227A3E70F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12059A0D0759B6203927A04BF3268C50 /* PBXTargetDependency */,
+			);
+			name = "Pods-Alerts&Pickers";
+			productName = "Pods-Alerts&Pickers";
+			productReference = CFB83FC7773FDC9A366D869CC7F91C25 /* Pods_Alerts_Pickers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		607FB2147503C5DE372DDA49D99F7224 /* GKDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7223049E57CFE12A7867F5F9000872B /* Build configuration list for PBXNativeTarget "GKDatePicker" */;
+			buildPhases = (
+				0B61686D7F4D9AB6E99377B8986F15AC /* Headers */,
+				927ACAEEE3E6AC2B0B8855C3FAF80593 /* Sources */,
+				AA370803C8E5C24EEA75075E4B3CE91D /* Frameworks */,
+				507D4DD9A5D8650737F520AD257D3A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKDatePicker;
+			productName = GKDatePicker;
+			productReference = BA4290D23E30930BDBC263B205ACB26C /* GKDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 928E0245A0A12CC0D25295A792C8D412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FB2147503C5DE372DDA49D99F7224 /* GKDatePicker */,
+				58249BF94D8F54E241972CF238FBAB92 /* Pods-Alerts&Pickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		507D4DD9A5D8650737F520AD257D3A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90B42E147AA8EC82DCD8227A3E70F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		927ACAEEE3E6AC2B0B8855C3FAF80593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FBA3FB60076E8E04F212CF2DE6F32D /* Common+Extensions.swift in Sources */,
+				52C5B83B50161F16225E36F669CAEC40 /* DatePickerViewController.swift in Sources */,
+				476FE38FD5128862CDC7677894234136 /* GKDatePicker-dummy.m in Sources */,
+				EA9FC064B5E3EF1CD84C826F9BC612F6 /* String+Extensions.swift in Sources */,
+				C18B766D850EBC665413A7550684810F /* UIAlertController+Extensions.swift in Sources */,
+				03263FDD5C4C4EDEAB53B732F14BAEE0 /* UITextView+Extensions.swift in Sources */,
+				E06842F0415C673C5386F37EA9505112 /* UIView+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E341FCD771F553AB391CD7632F4EB4E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5B19DFB2F7CCA1424E924A6A98AC0C /* Pods-Alerts&Pickers-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12059A0D0759B6203927A04BF3268C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GKDatePicker;
+			target = 607FB2147503C5DE372DDA49D99F7224 /* GKDatePicker */;
+			targetProxy = 31CBAD172E46432BFB4DC2AD947D9871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1561DC8077A9E9A8CB344621B805E2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7ECCB37C482D1A9E5C693CA5361E20 /* Pods-Alerts&Pickers.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Alerts&Pickers/Pods-Alerts&Pickers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alerts&Pickers/Pods-Alerts&Pickers.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		76C274B3A4CE47F701CF9B1E0B5A0D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158E11C6037531725B5FB080B3CF62CD /* Pods-Alerts&Pickers.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Alerts&Pickers/Pods-Alerts&Pickers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alerts&Pickers/Pods-Alerts&Pickers.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C34C0E245007FCC8FB28134D0AADD920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED1EB38ECBA8D5CBC92388A880EC3A7 /* GKDatePicker.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GKDatePicker/GKDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GKDatePicker/GKDatePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GKDatePicker/GKDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = GKDatePicker;
+				PRODUCT_NAME = GKDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C94488893C57D9B3B27A430B1C6901C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6D5FC28A038131B66CDA2E2E934EC1 /* GKDatePicker.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GKDatePicker/GKDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GKDatePicker/GKDatePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GKDatePicker/GKDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = GKDatePicker;
+				PRODUCT_NAME = GKDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39CCDDEC53B8A0D36C368520697BD9A3 /* Build configuration list for PBXNativeTarget "Pods-Alerts&Pickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1561DC8077A9E9A8CB344621B805E2FE /* Debug */,
+				76C274B3A4CE47F701CF9B1E0B5A0D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7223049E57CFE12A7867F5F9000872B /* Build configuration list for PBXNativeTarget "GKDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34C0E245007FCC8FB28134D0AADD920 /* Debug */,
+				C94488893C57D9B3B27A430B1C6901C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

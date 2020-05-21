@@ -1,0 +1,6 @@
+framework module GKDatePicker {
+  umbrella header "GKDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

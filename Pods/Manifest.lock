@@ -1,0 +1,16 @@
+PODS:
+  - GKDatePicker (1.0.0)
+
+DEPENDENCIES:
+  - GKDatePicker (from `./`)
+
+EXTERNAL SOURCES:
+  GKDatePicker:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  GKDatePicker: f32e42e130bd8430bc6aa46ea54d372eb0899e18
+
+PODFILE CHECKSUM: f7481c853b2e9b51d3e7fea4577c90f6b21f5a18
+
+COCOAPODS: 1.9.1

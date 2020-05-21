@@ -2,7 +2,7 @@ import UIKit
 import AudioToolbox
 
 // MARK: - Initializers
-extension UIAlertController {
+public extension UIAlertController {
 	
     /// Create new alert view controller.
     ///

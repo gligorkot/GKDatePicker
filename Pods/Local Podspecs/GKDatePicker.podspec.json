@@ -1,0 +1,28 @@
+{
+  "name": "GKDatePicker",
+  "version": "1.0.0",
+  "summary": "Advanced usage of UIAlertController with DatePicker adapted for using in DialogSDK",
+  "homepage": "https://github.com/gligorkot/GKDatePicker",
+  "license": "MIT",
+  "authors": {
+    "Gligor Kotushevski": "gligorkot@gmail.com"
+  },
+  "social_media_url": "https://twitter.com/gligor_nz",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": [
+    "5.0",
+    "5.1",
+    "5.2"
+  ],
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "5.0"
+  },
+  "source": {
+    "git": "https://github.com/gligorkot/GKDatePicker.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "Source/**/*.{swift}",
+  "swift_version": "5.2"
+}
