@@ -115,10 +115,10 @@ class ViewController: UIViewController {
         case .datePicker:
             let alert = UIAlertController(style: self.alertStyle, title: "Date Picker", message: "Select Date")
             alert.addDatePicker(mode: .dateAndTime, date: Date(), minimumDate: nil, maximumDate: nil) { date in
-                Log(date)
+                debugPrint(date)
             }
             alert.addAction(UIAlertAction(title: "Done", style: .cancel, handler: nil))
-            alert.show()
+            present(alert, animated: true, completion: nil)
         }
     }
 }
@@ -128,7 +128,7 @@ class ViewController: UIViewController {
 extension ViewController: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        Log("selected alert - \(alerts[indexPath.item].rawValue)")
+        debugPrint("selected alert - \(alerts[indexPath.item].rawValue)")
         show(alert: alerts[indexPath.item])
     }
 }

@@ -41,10 +41,6 @@ public final class DatePickerViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    deinit {
-        Log("has deinitialized")
-    }
-    
     override public func loadView() {
         view = datePicker
     }
